@@ -125,6 +125,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
     led_control(LED0, OFF);
     led_control(LED1, OFF);
     HAL_Delay(100);
