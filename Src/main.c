@@ -127,10 +127,11 @@ int main(void)
   {
     led_control(LED0, OFF);
     led_control(LED1, OFF);
-    HAL_Delay(100);
+    HAL_Delay(500);
+
     led_control(LED0, ON);
     led_control(LED1, ON);
-    HAL_Delay(100);
+    HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
